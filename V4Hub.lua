@@ -12,7 +12,7 @@ local tab = gui:tab{
 tab:button({
     Name = "Psychotic mode",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/mode.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/0.lua"))()
      end,  
 })
 
