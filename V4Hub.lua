@@ -5,8 +5,8 @@ local gui = Library:create{
 }
 
 local tab = gui:tab{
-    Icon = "rbxassetid://11414232888",
-    Name = "Hub / Script Mode / Item and other"
+    Icon = "rbxassetid://3457898957",
+    Name = "Script Mode"
 }
 
 tab:button({
@@ -21,13 +21,6 @@ tab:button({
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JevilOhio/Doors-Hardcore-noonie-ver-/main/Doors%20Hardcore%20(noonie)"))()
      end,  
-})
-
-tab:button({
-    Name = "Keyboard",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-    end,
 })
 
 tab:button({
@@ -129,6 +122,37 @@ tab:button({
 })
 
 tab:button({
+    Name = "Cat Mode",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Cat"))()
+    end,
+})
+
+local tab = gui:tab{
+    Icon = "rbxassetid://3457898957",
+    Name = "other"
+}
+
+tab:button({
+    Name = "Keyboard",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    end,
+})
+
+tab:button({
+    Name = "Dex V3",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+     end,  
+})
+
+local tab = gui:tab{
+    Icon = "rbxassetid://3457898957",
+    Name = "Doors hub"
+}
+
+tab:button({
     Name = "mshub",
     Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
@@ -139,13 +163,6 @@ tab:button({
     Name = "Trauma Hub V3",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Bat-hub/Hub/TraumaHub.lua"))()
-     end,  
-})
-
-tab:button({
-    Name = "Dex V3",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
      end,  
 })
 
