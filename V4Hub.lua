@@ -12,50 +12,49 @@ local tab = gui:tab{
 tab:button({
     Name = "Psychotic.lua",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/0.lua"))()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/0.lua"))()
     end,  
 })
 
 tab:button({
     Name = "Hardcore.lua",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JevilOhio/Doors-Hardcore-noonie-ver-/main/Doors%20Hardcore%20(noonie)"))()
-    end,  
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/JevilOhio/Doors-Hardcore-noonie-ver-/main/Doors%20Hardcore%20(noonie)"))()
+     end,  
 })
 
 tab:button({
-    Name = "Hardcore(R-V)",
+    Name = "Hardcore (R-V).lua",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Hardcore-Remake/main/Hardcore%20Remake(Made%20by%20Jay).lua))()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Hardcore-Remake/main/Hardcore%20Remake(Made%20by%20Jay).lua"))()
+     end,  
+})
+
+tab:button({
+    Name = "hamor.lua",
+    Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Hamor"))()
+     end,  
+})
+tab:button({
+    Name = "Extreme.lua",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/main/Extreme"))()
     end,  
 })
 
 tab:button({
     Name = "Insane V5.lua",
     Callback = function()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/thefigureblack/doors/main/insanemodev5.lua"),true))()
-    end,  
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/thefigureblack/doors/main/insanemodev5.lua"))()
+     end,  
 })
 
 tab:button({
     Name = "Insane V6.lua",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/InsaneV6/main/InsaneV6.lua"))()
-    end,  
-})
-
-tab:button({
-    Name = "Hamor.lua",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Hamor"))()
-    end,  
-})
-
-tab:button({
-    Name = "Extreme.lua",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/main/Extreme"))()
-    end,  
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/InsaneV6/main/InsaneV6.lua"))()
+     end,  
 })
 
 tab:button({
