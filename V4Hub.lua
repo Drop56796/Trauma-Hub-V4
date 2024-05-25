@@ -10,35 +10,35 @@ local tab = gui:tab{
 }
 
 tab:button({
-    Name = "Psychotic.lua",
+    Name = "Psychotic.lua(Darkness Catminety)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/0.lua"))()
      end,  
 })
 
 tab:button({
-    Name = "Hardcore.lua",
+    Name = "Hardcore.lua(noonie)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JevilOhio/Doors-Hardcore-noonie-ver-/main/Doors%20Hardcore%20(noonie)"))()
      end,  
 })
 
 tab:button({
-    Name = "HardcoreRemake.lua(Fluxus)",
+    Name = "Hardcore(R-V) /Jay Ping Noonie",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/HardcoreRemake/main/Hardcore%20(R-V).lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Hardcore-Remake/main/Hardcore%20Remake(Made%20by%20Jay).lua))()
      end,  
 })
 
 tab:button({
-    Name = "Insane V5.lua",
+    Name = "Insane V5.lua(figureblack)",
     Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/thefigureblack/doors/main/insanemodev5.lua"),true))()
      end,  
 })
 
 tab:button({
-    Name = "Insane V6.lua",
+    Name = "Insane V6.lua(Jabiess Noah)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/InsaneV6/main/InsaneV6.lua"))()
      end,  
@@ -46,98 +46,98 @@ tab:button({
 
 
 tab:button({
-    Name = "Hamor.lua",
+    Name = "Hamor.lua(???)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Hamor"))()
      end,  
 })
 
 tab:button({
-    Name = "Extreme.lua",
+    Name = "Extreme.lua(???)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/main/Extreme"))()
      end,  
 })
 
 tab:button({
-    Name = "Impossible.lua",
+    Name = "Impossible.lua(Off)",
     Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Ukazix/impossible-mode/main/Protected_79.lua.txt'))()
      end,  
 })
 
 tab:button({
-    Name = "Troll.lua",
+    Name = "Troll.lua(???)",
     Callback = function()
     loadstring(game:HttpGet("https://glot.io/snippets/gotfeffesc/raw/main.lua"))()
      end,  
 })
 
 tab:button({
-    Name = "Fragmented V4.lua",
+    Name = "Fragmented V4.lua(Jabiess Noah Ame)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/main/Fragmented"))()
      end,  
 })
 
 tab:button({
-    Name = "Fear.lua",
+    Name = "Fear.lua(cool59572)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/cool59572/freestuff/main/Mods/FearMode.lua"))()
      end,  
 })
 
 tab:button({
-    Name = "Hazy.lua",
+    Name = "Hazy.lua(Jabiess)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Jabiess-Hazy-Mode-/main/Hazy%20Mode.lua"))()
      end,  
 })
 
 tab:button({
-    Name = "Hardcore(A-V).lua",
+    Name = "Hardcore(A-V).lua(plamen6789)",
     Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/HardcoreScriptDOORS/main/HardcoreModeScript'))()
      end,  
 })
 
 tab:button({
-    Name = "Nightmare.lua",
+    Name = "Nightmare.lua(???)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/nightmare/main/nightmare%20mode.lua"))()
      end,  
 })
 
 tab:button({
-    Name = "Hardcore but bad.lua",
+    Name = "Hardcore but bad.lua(Noonie...)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Hardcore-but-bad"))()
      end,  
 })
 
 tab:button({
-    Name = "Endless.lua",
+    Name = "Endless.lua(???)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Endless"))()
      end,  
 })
 
 tab:button({
-    Name = "Birthday.lua",
+    Name = "Birthday.lua(???)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Birthday"))()
      end,  
 })
 
 tab:button({
-    Name = "Furry.lua",
+    Name = "Furry.lua(off Demon)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Furry"))()
      end,  
 })
 
 tab:button({
-    Name = "Cat.lua",
+    Name = "Cat.lua(???)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Cat"))()
     end,
@@ -156,7 +156,7 @@ tab:button({
 })
 
 tab:button({
-    Name = "Dex V3",
+    Name = "Dex V3(Noah)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
      end,  
@@ -166,23 +166,22 @@ local tab = gui:tab{
     Icon = "rbxassetid://3457898957",
     Name = "Doors hub"
 }
-
-tab:button({
-    Name = "mshub",
+Floor2 candleutton({
+    Name = "mshub(MS studio)",
     Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
      end,  
 })
 
 tab:button({
-    Name = "Trauma Hub V3",
+    Name = "Trauma Hub V3(Darkness)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Bat-hub/Hub/TraumaHub.lua"))()
      end,  
 })
 
 tab:button({
-    Name = "FFJ1",
+    Name = "FFJ1(FFJ1)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
      end,  
@@ -194,14 +193,14 @@ local tab = gui:tab{
 }
 
 tab:button({
-    Name = "Floor2 Candle Item",
+    Name = "Floor2(icerrykardess)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Floor-2-candle-By-icherryKardess-/The-Floor-2-candle-(By-icherryKardess)/Floor2%20candle%20(The%20candle%20by%20icherrykardess).lua"))()
      end,  
 })
 
 tab:button({
-    Name = "Floor2 Package",
+    Name = "Floor2 Package(icerrykardess)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
      end,  
