@@ -165,8 +165,7 @@ tab:button({
 local tab = gui:tab{
     Icon = "rbxassetid://3457898957",
     Name = "Doors hub"
-}
-Floor2 candleutton({
+ tab:button({
     Name = "mshub(MS studio)",
     Callback = function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
