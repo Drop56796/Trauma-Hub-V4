@@ -140,7 +140,7 @@ tab:button({
     Name = "Cat.lua",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Cat"))()
-    end,
+     end,
 })
 
 local tab = gui:tab{
@@ -152,7 +152,7 @@ tab:button({
     Name = "Keyboard",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-    end,
+     end,
 })
 
 tab:button({
