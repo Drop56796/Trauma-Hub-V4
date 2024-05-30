@@ -204,3 +204,15 @@ tab:button({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
     end,  
 })
+
+local tab = gui:tab{
+    Icon = "rbxassetid://3457898957",
+    Name = "Gun Hub"
+}
+
+tab:button({
+    Name = "hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Gun/main/Hub.lua"))()
+    end,  
+})
