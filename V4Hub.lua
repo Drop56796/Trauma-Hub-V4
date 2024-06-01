@@ -166,6 +166,13 @@ local tab = gui:tab{
 }
 
 tab:button({
+    Name = "Trauma Hub V5(Warning)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/V5/main/Hub.lua"))()
+    end,  
+})
+
+tab:button({
     Name = "mshub",
     Callback = function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
@@ -192,7 +199,7 @@ local tab = gui:tab{
 }
 
 tab:button({
-    Name = "Floor2",
+    Name = "Floor2 item",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Floor-2-candle-By-icherryKardess-/The-Floor-2-candle-(By-icherryKardess)/Floor2%20candle%20(The%20candle%20by%20icherrykardess).lua"))()
     end,  
